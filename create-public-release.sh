@@ -23,9 +23,7 @@ export VERSION=$1
 ./step-clean.sh
 ./step-compile.sh
 ./step-test.sh
-./step-debian-create.sh
 ./step-create-docker-image.sh
-./step-debian-upload.sh
 ./step-upload-docker-image.sh
 ./step-git-tag.sh
 
