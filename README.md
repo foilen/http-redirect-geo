@@ -53,3 +53,13 @@ That will show the latest created version. Then, you can choose one and execute:
 ```bash
 docker run --rm -ti foilen/foilen-http-redirect-geo:latest /usr/bin/http-redirect-geo
 ```
+
+# Use in Azure
+
+- The image is `foilen/foilen-http-redirect-geo-az:VERSION`
+  - Put the environment variable `CONFIG_FILE` to point to where you are placing the config file. Per default, it is `/home/site/wwwroot/config.json` 
+- Download the ips locations file
+- Create a config file
+  - `port` must be 80
+
+

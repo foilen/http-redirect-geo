@@ -16,3 +16,4 @@ fi
 ./step-clean.sh
 ./step-compile.sh
 ./step-create-docker-image.sh
+./step-create-docker-az-image.sh

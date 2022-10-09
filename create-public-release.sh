@@ -25,6 +25,8 @@ export VERSION=$1
 ./step-test.sh
 ./step-create-docker-image.sh
 ./step-upload-docker-image.sh
+./step-create-docker-az-image.sh
+./step-upload-docker-az-image.sh
 ./step-git-tag.sh
 
 echo ----[ Operation completed successfully ]----
